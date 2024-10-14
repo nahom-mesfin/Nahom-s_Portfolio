@@ -1,57 +1,52 @@
-import React from 'react'
+import React from "react";
 import { AiFillAppstore } from "react-icons/ai";
-import { FaMobile, FaGlobe } from "react-icons/fa";
+import { FaMobile, FaDatabase, FaReact, FaGlobe } from "react-icons/fa";
 import { SiProgress, SiAntdesign } from "react-icons/si";
-import Title from '../layouts/Title';
-import Card from './Card';
+import Title from "../layouts/Title";
+import Card from "./Card";
 
 const Features = () => {
   return (
     <section
       id="features"
-      className="w-full py-20 border-b-[1px] border-b-black"
-    >
+      className="w-full py-20 border-b-[1px] border-b-black">
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Business Stratagy"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-         
+          title="Web Development"
+          des=" Develop Web using MERN stack"
+          icon={<FaReact />}
         />
         <Card
-          title="App Development"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
-          icon={<AiFillAppstore />}
+          title="Database Administration and Optimization"
+          des=" Sql and NOSQL"
+          icon={<FaDatabase />}
         />
         <Card
           title="SEO Optimisation"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          des=" orienting your website to rank higher on a search engine results page (SERP) so that you receive more traffic."
           icon={<SiProgress />}
         />
-        <Card
+        {/* <Card
           title="Mobile Development"
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
           icon={<FaMobile />}
-        />
+        /> */}
         <Card
-          title="UX Design"
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
-          hic consequuntur eum repellendus ad."
+          title="UX/UI Design"
+          des="Using Tools like Figma and Canva"
           icon={<SiAntdesign />}
         />
-        <Card
+        {/* <Card
           title="Hosting Websites"
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
           icon={<FaGlobe />}
-        />
+        /> */}
       </div>
     </section>
   );
-}
+};
 
-export default Features
+export default Features;
