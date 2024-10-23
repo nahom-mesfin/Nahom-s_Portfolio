@@ -1,5 +1,3 @@
-import logo from "./images/logo.png";
-import bannerImg from "./images/bannerImg.png";
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
@@ -11,8 +9,6 @@ import NM_Profile from "./images/NM_Profile.png";
 import NahomLogo from "./images/NahomLogo.jpg";
 
 export {
-  logo,
-  bannerImg,
   projectOne,
   projectTwo,
   projectThree,
