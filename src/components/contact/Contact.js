@@ -210,11 +210,11 @@ const Contact = () => {
           "service_nm116",
           "template_uxl16w9",
           {
-            username,
-            phoneNumber,
-            email,
-            subject,
-            message,
+            from_name: username, // Use 'from_name' instead of 'username'
+            phone_number: phoneNumber, // Use 'phone_number' instead of 'phoneNumber'
+            email: email, // This should match your template
+            subject: subject, // This should match your template
+            message: message, // This should match your template
           },
           "rXiWN5SyYVLnXbEPJ"
         )
@@ -231,6 +231,7 @@ const Contact = () => {
             setMessage("");
           },
           (error) => {
+            console.log(error); // Log the error for debugging
             setErrMsg("Failed to send message. Please try again.");
           }
         );
