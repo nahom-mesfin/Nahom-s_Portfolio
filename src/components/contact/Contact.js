@@ -169,8 +169,9 @@
 // export default Contact
 
 import React, { useState } from "react";
-import Title from "../layouts/Title";
+import emailjs from "emailjs-com";
 import ContactLeft from "./ContactLeft";
+import Title from "../layouts/Title";
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -181,7 +182,6 @@ const Contact = () => {
   const [errMsg, setErrMsg] = useState("");
   const [successMsg, setSuccessMsg] = useState("");
 
-  // Email validation function accepts an email argument
   const emailValidation = (email) => {
     return String(email)
       .toLowerCase()
@@ -190,6 +190,7 @@ const Contact = () => {
 
   const handleSend = (e) => {
     e.preventDefault();
+
     if (!username) {
       setErrMsg("Username is required!");
     } else if (!phoneNumber) {
@@ -203,13 +204,36 @@ const Contact = () => {
     } else if (!message) {
       setErrMsg("Message is required!");
     } else {
-      setSuccessMsg(`Thank you, ${username}. Your message has been sent!`);
-      setErrMsg("");
-      setUsername("");
-      setPhoneNumber("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
+      // Send email using EmailJS
+      emailjs
+        .send(
+          "service_nm116",
+          "template_uxl16w9",
+          {
+            username,
+            phoneNumber,
+            email,
+            subject,
+            message,
+          },
+          "rXiWN5SyYVLnXbEPJ"
+        )
+        .then(
+          (response) => {
+            setSuccessMsg(
+              `Thank you, ${username}. Your message has been sent!`
+            );
+            setErrMsg("");
+            setUsername("");
+            setPhoneNumber("");
+            setEmail("");
+            setSubject("");
+            setMessage("");
+          },
+          (error) => {
+            setErrMsg("Failed to send message. Please try again.");
+          }
+        );
     }
   };
 
