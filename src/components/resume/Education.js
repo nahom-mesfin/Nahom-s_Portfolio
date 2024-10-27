@@ -55,7 +55,7 @@ const Education = () => {
             title="Intern"
             subTitle="Web Developer & Trainee  - (May,2023 - Sep,2023)"
             result="AddisWay Tech Solution , A.A"
-            des="A popular destination with a growing number of highly qualified homegrown graduates, it's true that securing a role in Malaysia isn't easy."
+            des=" "
           />
           {/* <ResumeCard
             title="Front-end Developer"
