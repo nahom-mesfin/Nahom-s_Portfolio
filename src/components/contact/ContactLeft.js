@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaTelegram, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -30,13 +30,27 @@ const ContactLeft = () => {
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <FaFacebookF />
+            <a href="https://github.com/nahom-mesfin" target="blank">
+              <span className="bannerIcon">
+                <FaGithub />
+              </span>
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaTwitter />
+            <a href="https://t.me/Nahom_116 " target="blank">
+              <span className="bannerIcon">
+                <FaTelegram />
+              </span>
+            </a>
           </span>
           <span className="bannerIcon">
-            <FaLinkedinIn />
+            <a
+              href="https://www.linkedin.com/in/nahom-mesfin-68347b275/"
+              target="blank">
+              <span className="bannerIcon">
+                <FaLinkedinIn />
+              </span>
+            </a>
           </span>
         </div>
       </div>

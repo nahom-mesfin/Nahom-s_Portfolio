@@ -64,15 +64,14 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaLinkedinIn />
-                  </span>
+                  <a
+                    href="https://www.linkedin.com/in/nahom-mesfin-68347b275/"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <span className="bannerIcon">
+                      <FaLinkedinIn />
+                    </span>
+                  </a>
                 </div>
               </div>
               <span
