@@ -5,8 +5,11 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-import NM_Profile from "./images/NM_Profile.png";
+import NM_Profi1e from "./images/testmonial/NM_Profi1e.png";
 import NahomLogo from "./images/NahomLogo.jpg";
+import TeacherPES from "./images/projects/TeacherPES.jpg";
+import Tender from "./images/projects/Tender.jpg";
+import weather from "./images/projects/weather.jpg";
 
 export {
   projectOne,
@@ -16,6 +19,9 @@ export {
   testimonialTwo,
   quote,
   contactImg,
-  NM_Profile,
+  NM_Profi1e,
   NahomLogo,
+  TeacherPES,
+  Tender,
+  weather,
 };
