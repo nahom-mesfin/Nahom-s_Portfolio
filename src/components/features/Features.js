@@ -14,7 +14,7 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
           title="Web Development"
-          des=" Develop Web using MERN stack"
+          des="Building responsive, user-friendly websites using the MERN stack (MongoDB, Express, React, and Node.js), focusing on functionality, scalability, and a seamless user experience."
           icon={<FaReact />}
         />
         <Card
@@ -35,7 +35,7 @@ const Features = () => {
         /> */}
         <Card
           title="UX/UI Design"
-          des="Using Tools like Figma and Canva"
+          des="Creating intuitive, user-centered designs using tools like Figma and Canva to enhance user experience and bring ideas to life with visually engaging and functional layouts."
           icon={<SiAntdesign />}
         />
         {/* <Card
