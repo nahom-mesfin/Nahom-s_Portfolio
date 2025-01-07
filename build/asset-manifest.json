@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.06b9e9df.css",
+    "main.js": "/static/js/main.ad74b545.js",
+    "static/media/NM_Profi1e.png": "/static/media/NM_Profi1e.047ec13545f8f4937654.png",
+    "static/media/TeacherPES.jpg": "/static/media/TeacherPES.95aef98a146939f4aa07.jpg",
+    "static/media/Tender.jpg": "/static/media/Tender.9f9802e1d9ba141921c2.jpg",
+    "static/media/weather.jpg": "/static/media/weather.2644d1b6b2a46c758d42.jpg",
+    "static/media/contactImg.png": "/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/NahomLogo.jpg": "/static/media/NahomLogo.cecefd255c16caac594e.jpg",
+    "static/media/testimonialOne.png": "/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/projectThree.jpeg": "/static/media/projectThree.47442baa3158613330ab.jpeg",
+    "static/media/testimonialTwo.png": "/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/projectTwo.jpg": "/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "index.html": "/index.html",
+    "main.06b9e9df.css.map": "/static/css/main.06b9e9df.css.map",
+    "main.ad74b545.js.map": "/static/js/main.ad74b545.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06b9e9df.css",
+    "static/js/main.ad74b545.js"
+  ]
+}

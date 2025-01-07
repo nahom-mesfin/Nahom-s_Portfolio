@@ -10,6 +10,9 @@ import NahomLogo from "./images/NahomLogo.jpg";
 import TeacherPES from "./images/projects/TeacherPES.jpg";
 import Tender from "./images/projects/Tender.jpg";
 import weather from "./images/projects/weather.jpg";
+import ehel from "./images/projects/ehel.jpg";
+import yene from "./images/projects/yene.jpg";
+import menu from "./images/projects/menu.jpg";
 
 export {
   projectOne,
@@ -24,4 +27,7 @@ export {
   TeacherPES,
   Tender,
   weather,
+  ehel,
+  yene,
+  menu,
 };
