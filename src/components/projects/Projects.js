@@ -66,9 +66,7 @@ const Projects = () => {
         <Title title="VISIT MY PORTFOLIO " des="My Projects" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-        <a
-          href="https://your-deployed-url/teacher-performance-evaluation"
-          className="block">
+        <a href="https://github.com/nahom-mesfin/DBU_TPES" className="block">
           <ProjectsCard
             title="DBU Teacher Performance Evaluation System"
             des="The DBU Teacher Performance Evaluation System is a digital tool aimed at improving education quality and academic administration at Debre Brehan University."
