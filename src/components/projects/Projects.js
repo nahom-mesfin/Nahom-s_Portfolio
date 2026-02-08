@@ -54,7 +54,13 @@
 
 import React from "react";
 import Title from "../layouts/Title";
-import { TeacherPES, yene, ehel, menu } from "../../assets/index";
+import {
+  TeacherPES,
+  yene,
+  ehel,
+  menu,
+  salesDashboard,
+} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -87,6 +93,18 @@ const Projects = () => {
             src={ehel}
           />
         </a>
+        <a
+          href="https://interactivesalesdashboard.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block">
+          <ProjectsCard
+            title="Interactive Sales Dashboard"
+            des="An interactive sales analytics dashboard with data visualization for tracking performance, trends, and insights."
+            src={salesDashboard}
+          />
+        </a>
+
         <a
           href="https://menu-nahom.netlify.app/#Drinks%20%E2%98%95%EF%B8%8F"
           className="block">

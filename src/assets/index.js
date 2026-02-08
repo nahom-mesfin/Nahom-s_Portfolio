@@ -13,6 +13,7 @@ import weather from "./images/projects/weather.jpg";
 import ehel from "./images/projects/ehel.jpg";
 import yene from "./images/projects/yene.jpg";
 import menu from "./images/projects/menu.jpg";
+import salesDashboard from "./images/projects/salesDashboard.jpg";
 
 export {
   projectOne,
@@ -30,4 +31,5 @@ export {
   ehel,
   yene,
   menu,
+  salesDashboard,
 };
