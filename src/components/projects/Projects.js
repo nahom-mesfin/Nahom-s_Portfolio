@@ -60,6 +60,7 @@ import {
   ehel,
   menu,
   salesDashboard,
+  Merkato,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -71,7 +72,19 @@ const Projects = () => {
       <div className="flex justify-center items-center text-center">
         <Title title="VISIT MY PORTFOLIO " des="My Projects" />
       </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+        <a
+          href="https://merkato-shopping.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block">
+          <ProjectsCard
+            title="Merkato Shopping"
+            des="Merkato Shopping is a modern full-stack e-commerce platform built with Next.js, Sanity, Stripe, and NextAuth. It features product management, authentication, cart functionality, and secure checkout."
+            src={Merkato}
+          />
+        </a>
         <a href="https://github.com/nahom-mesfin/DBU_TPES" className="block">
           <ProjectsCard
             title="DBU Teacher Performance Evaluation System"
