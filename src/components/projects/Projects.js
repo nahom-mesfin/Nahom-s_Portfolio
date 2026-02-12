@@ -85,6 +85,13 @@ const Projects = () => {
             src={Merkato}
           />
         </a>
+        <a href="https://ehel-gebeya.netlify.app/" className="block">
+          <ProjectsCard
+            title="Ehel-Gebeya"
+            des="We connect farmers straight to the market."
+            src={ehel}
+          />
+        </a>
         <a href="https://github.com/nahom-mesfin/DBU_TPES" className="block">
           <ProjectsCard
             title="DBU Teacher Performance Evaluation System"
@@ -99,13 +106,7 @@ const Projects = () => {
             src={yene}
           />
         </a>
-        <a href="https://ehel-gebeya.netlify.app/" className="block">
-          <ProjectsCard
-            title="Ehel-Gebeya"
-            des="We connect farmers straight to the market."
-            src={ehel}
-          />
-        </a>
+
         <a
           href="https://interactivesalesdashboard.netlify.app/"
           target="_blank"
